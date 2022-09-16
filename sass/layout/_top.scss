@@ -14,8 +14,8 @@
     align-items: center;
 }
 
-.top-title {
-    color: #fff;
+.top-div__title {
+    color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -26,6 +26,6 @@
     margin-bottom: 30px;
 }
 
-.top-button {
+.top-div__button {
     padding: 10px 32px;
 }

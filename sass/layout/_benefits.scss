@@ -2,39 +2,37 @@
     padding-top: 94px;
 }
 
-.our-benefits-list {
+.benefits-list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .benefits-div {
+    @extend %align;
     background-color: #F5F4FA;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
 }
 
-.benefits-icon {
+.benefits-div__icon {
     width: 70px;
     height: 70px;
 }
 
-.benefits-titles {
+.benefits-list__titles {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--dark-text-color);
     margin-bottom: 10px;
 }
 
-.benefits-paragraph {
+.benefits-list__paragraph {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

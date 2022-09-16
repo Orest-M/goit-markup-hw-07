@@ -9,26 +9,24 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--dark-text-color);
     margin-bottom: 50px;
 }
 
-.we-do-img {
+.we-do-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.we-do-li {
+.we-do-list__li {
     position: relative;
 }
 
-.we-do-overlay {
+.we-do-list__overlay {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     left: 0;
     bottom: 0%;
     background-color: rgba(47, 48, 58, 0.8);
@@ -40,5 +38,5 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
